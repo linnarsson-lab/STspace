@@ -10,6 +10,13 @@ from .plotting.stack_3d_plot import stack_3d_plot
 from .plotting import trajectory
 from .plotting.QC_plot import QC_plot
 from .plotting.cci_plot import het_plot
+from .plotting.cell_communication import plot_cell_communication
+from .plotting.pseudotime_pl_utils import pseudotime_heatmap
+from .plotting.dotplot import *
+from .plotting.neighbourhoodplot import *
+from .plotting.polygons import *
+from .plotting.ridgeplot import *
+from .plotting.umap import *
 
 # from .plotting.cci_plot import het_plot_interactive
 from .plotting.cci_plot import lr_plot_interactive, spatialcci_plot_interactive

@@ -5,3 +5,4 @@ from .preprocessing.log_scale import scale
 from .preprocessing.graph import neighbors
 from .image_preprocessing.image_tiling import tiling
 from .image_preprocessing.feature_extractor import extract_feature
+from .preprocessing.normalize_scale import preprocess
